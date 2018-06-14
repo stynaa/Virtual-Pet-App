@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/SettingsBackButton"
+        android:layout_width="380dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="172dp"
+        android:text="Done"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fitnessGoalsButton" />
+
+    <Button
+        android:id="@+id/fitnessGoalsButton"
+        android:layout_width="380dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+        android:text="Adjust Your Fitness Goals"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heightButton" />
+
+    <Button
+        android:id="@+id/heightButton"
+        android:layout_width="380dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+        android:text="Adjust Your Height"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/renamePetButton" />
+
+    <Button
+        android:id="@+id/renamePetButton"
+        android:layout_width="380dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+        android:text="Rename Your Pet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
